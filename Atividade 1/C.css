@@ -1,0 +1,67 @@
+body{ margin: auto;
+    width: 80%;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   margin-bottom: 56px;
+}
+
+
+
+
+
+    h1{text-align:center;
+        background-color: #a5a5f6;
+        font-size: 50px;
+        color:rgb(30, 30, 108);
+        margin-bottom: 0;
+        
+    }
+
+
+
+    h2{color:rgb(30, 30, 108);
+        background-color: #cac6c6;
+        border-bottom: solid;
+        padding: 10px 20px 10px 5px;
+        
+        text-transform: capitalize;
+        font-size: 40px;
+    }
+
+
+
+    .Brasileiro{text-align: center;
+        background-color: #b8b8fa;
+        margin-top: 0;
+        margin-bottom: 3px;
+    }
+
+
+
+    .front{margin-bottom: 50px;
+    
+
+}
+    a{text-decoration: none;}
+    a:hover{text-decoration:underline;}
+
+    .objetivo{margin-bottom: 1px;}
+
+    .menu{
+        text-align:right;
+       
+       
+    }
+    .menu li{
+        display: inline-block;
+        padding: 0px;
+        list-style-type: none;
+    }
+    .menu a{
+        background-color: #cac6c6;
+        padding: 16px;
+        display:block;
+        
+    
+    }
+
+
