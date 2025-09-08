@@ -8,7 +8,7 @@ meses = anos * 12
 #divindo a fatura mensal
 fatura = casa / meses
 if fatura > valor:
-    print('Emprestimo negado!')
+    print('\033[0;31;43mEmprestimo negado!\033[m')
     print('O valor passou 30% do seu salário')
 elif fatura == valor:
     print('Emprestimo aprovado!')
