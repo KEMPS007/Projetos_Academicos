@@ -1,0 +1,4 @@
+a = str(input('Digite algo: '))
+b = a[::-1]
+if a == b:
+    print(f'essa frase é um polindromo')
