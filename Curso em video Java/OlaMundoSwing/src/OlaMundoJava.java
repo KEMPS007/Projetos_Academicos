@@ -1,9 +1,12 @@
 import javax.swing.JFrame;
 public class OlaMundoJava {
     public static void main(String[] args){
-        JFrame frame = new JFrame();
-        frame.setSize(420,420);
-        frame.setVisible(true);
-
+        int[] vet = {10, 20, 34, 56, 60};
+        int i;
+        for(i = 0; i < vet.length; i++){
+            System.out.println("vet[" + i + "]=" + vet[i]);
+        }
+        System.out.print("i=" + i);
     }
 }
+
