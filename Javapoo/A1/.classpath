@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="alunos/src"/>
+	<classpathentry kind="src" path="Banco/src"/>
+	<classpathentry kind="src" path="conversor/src"/>
+	<classpathentry kind="src" path="corse/src"/>
+	<classpathentry kind="src" path="course/src"/>
+	<classpathentry kind="src" path="curso_java/src"/>
+	<classpathentry kind="src" path="diagonal_negativos/src"/>
+	<classpathentry kind="src" path="e1/src"/>
+	<classpathentry kind="src" path="E2/src"/>
+	<classpathentry kind="src" path="E3/src"/>
+	<classpathentry kind="src" path="E4/src"/>
+	<classpathentry kind="src" path="Exercicio1/src"/>
+	<classpathentry kind="src" path="exercio_fixação/src"/>
+	<classpathentry kind="src" path="funcionario/src"/>
+	<classpathentry kind="src" path="retangulo/src"/>
+	<classpathentry kind="src" path="soma_vetor/src"/>
+	<classpathentry kind="output" path="Banco/bin"/>
+</classpath>
