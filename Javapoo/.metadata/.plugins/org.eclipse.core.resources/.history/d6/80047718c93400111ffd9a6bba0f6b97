@@ -1,0 +1,45 @@
+package app;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Client;
+import entities.Order;
+import entities.enums.OrderStatus;
+
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter cliente data:");
+		System.out.print("Name: ");
+		String name = sc.nextLine();
+		System.out.print("Email: ");
+		String email = sc.next();
+		System.out.println("Birth date (DD/MM/YYYY): ");
+		String date = sc.next();
+		LocalDate birthDate = LocalDate.parse(date,fmt);
+		Client client = new Client (name,email,birthDate);
+		
+		System.out.println("Enter order data: ");
+		LocalDateTime moment = LocalDateTime.now();
+		System.out.println("Status: ");
+		String status = sc.next();
+		Order order = new Order(moment,OrderStatus.valueOf(status),client);
+		
+		
+				
+		
+		sc.close();
+
+	}
+
+}

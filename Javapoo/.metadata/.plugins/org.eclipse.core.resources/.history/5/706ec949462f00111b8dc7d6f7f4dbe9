@@ -1,0 +1,24 @@
+package data_hora;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//instaciação data e hora
+		
+		LocalDate d01 = LocalDate.now();
+		LocalDateTime d02 = LocalDateTime.now();
+		
+		System.out.println(d02);
+		
+		
+		
+		
+		
+	}
+
+}

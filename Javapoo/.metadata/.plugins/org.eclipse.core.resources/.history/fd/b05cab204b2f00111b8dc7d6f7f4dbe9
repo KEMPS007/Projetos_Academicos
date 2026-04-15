@@ -1,0 +1,31 @@
+package data_hora;
+
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//instaciação data e hora
+		
+		LocalDate d01 = LocalDate.now();
+		LocalDateTime d02 = LocalDateTime.now();
+		Instant d03 = Instant.now(); //  <--- global
+		
+		// formato iso 
+		LocalDate d04 = LocalDate.parse("2026-04-03");
+		LocalDateTime d05 = LocalDateTime.parse("2026-04-03T01:30:26");
+		
+		System.out.println(d01);
+		System.out.println(d02);
+		System.out.println(d03);
+		System.out.println(d04);
+		System.out.println(d05);
+		
+		
+	}
+
+}

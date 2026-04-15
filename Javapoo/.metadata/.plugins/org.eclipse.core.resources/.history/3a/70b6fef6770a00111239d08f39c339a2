@@ -1,0 +1,14 @@
+package util;
+
+public class CurrencyConverter {
+	
+	public static double dollar = 5.22;
+	
+	public static double Reais(double dollars) {
+		return dollar * dollars;
+	}
+		
+	
+	
+
+}

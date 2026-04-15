@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class tabuada {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int x,i,soma;
+		
+		System.out.print("Deseja tabuada para qual valor?: ");
+		x = sc.nextInt();
+		
+		for(i=0; i<11 ; i++){
+			soma = x * i;
+			System.out.println(x+" x "+ i+" = "+soma);
+			
+		}
+		
+		sc.close();
+		
+	}
+
+}

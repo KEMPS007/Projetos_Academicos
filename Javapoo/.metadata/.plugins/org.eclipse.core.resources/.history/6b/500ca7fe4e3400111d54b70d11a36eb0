@@ -1,0 +1,30 @@
+package app;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.Locale;
+import java.util.Scanner;
+
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter cliente data:");
+		System.out.print("Name: ");
+		String name = sc.nextLine();
+		System.out.print("Email: ");
+		String email = sc.next();
+		System.out.println("Birth date (DD/MM/YYYY): ");
+		String birthDate = sc.next();
+		LocalDate date = LocalDate.parse(birthDate,fmt);
+		
+		sc.close();
+
+	}
+
+}

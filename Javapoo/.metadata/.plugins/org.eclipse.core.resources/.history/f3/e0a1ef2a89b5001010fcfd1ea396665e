@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class diagonal {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("QUAL A ORDEM DA MATRIZ: ");
+		int n = sc.nextInt();
+		
+		float[][] matriz = new float [n][n];
+		
+		for(int i = 0; i < n; i++){
+			for(int j =0; j < n; j++){
+				System.out.print("ELEMENTO [" + i +"," + j + "]: ");
+				matriz[i][j] = sc.nextFloat();
+				
+				
+			}
+		}
+		System.out.print("DIAGONAL PRINCIPAL: ");
+		for(int i = 0; i < n; i++){
+			System.out.print(" "+matriz[i][i]);
+			for(int j =0; j < n; j++){
+				
+				
+				
+			}
+		}
+			
+			
+		
+		sc.close();
+
+	}
+
+}

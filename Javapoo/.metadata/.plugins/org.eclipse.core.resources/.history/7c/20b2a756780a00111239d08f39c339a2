@@ -1,0 +1,16 @@
+package util;
+
+public class CurrencyConverter {
+	
+	public static double IOF = 0.38;
+		
+	
+	
+	public static double Reais(double dollars,double Dollar) {
+		return dollars * Dollar * (1.0 * IOF);
+	}
+		
+	
+	
+
+}

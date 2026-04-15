@@ -1,0 +1,39 @@
+package exercioComposicao;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Departmant;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.print("Enter department's name: ");
+		String departmentName = sc.nextLine();
+		Departmant dept = new Departmant(departmentName);
+		
+		System.out.print("Enter worker data: ");
+		int data = sc.nextInt();
+		sc.nextLine();
+		System.out.print("Name: ");
+		String workerName = sc.nextLine();
+		System.out.print("Level: ");
+		String workerLevel = sc.nextLine();
+		System.out.print("Base salary: ");
+		double baseSalary = sc.nextDouble();
+		
+		
+		
+		
+		sc.close();
+		
+		
+
+	}
+
+}

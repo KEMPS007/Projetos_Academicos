@@ -1,0 +1,33 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class progam {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+		double xA, xB, xC, yA, yC, yB;
+		
+		System.out.println("informe o valor do triagulo X");
+		xA = sc.nextDouble();
+		xB = sc.nextDouble();
+		xC = sc.nextDouble();
+		yA = sc.nextDouble();
+		yB = sc.nextDouble();
+		yC = sc.nextDouble();
+		
+		double p = (xA + xB + xC);
+		double areaX = Math.sqrt(p*(p-xA)*(p -xB)*(p- xC));
+		
+		double p = (yA + yB + yC);
+		double areay = Math.sqrt(p*(p-yA)*(p -yB)*(p- yC));
+		
+		
+		
+		sc.close();
+
+	}
+
+}
